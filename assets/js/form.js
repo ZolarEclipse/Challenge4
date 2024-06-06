@@ -4,6 +4,7 @@ const content = document.getElementById('contentbox');
 const submit = document.getElementById('submitbutton');
 
 
+// Saves previous posts
 function saveBlog() {
 
   const blogList = JSON.parse(localStorage.getItem('blogList'));
@@ -33,7 +34,7 @@ function saveBlog() {
         }
     });
     });
-
+//Makes sure all baxes are filled in before post
 function validateForm() {
     const userName = document.getElementById('userbox').value.trim();
     const title = document.getElementById('titlebox').value.trim();
