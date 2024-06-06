@@ -6,7 +6,7 @@
     display: inline-block;
     width: 50%;
     min-height: auto;
-    background: white;
+    background: rgb(235, 229, 229);
     padding-top: 20px;
     margin: 80px; 
     padding-right: 90px;
@@ -23,7 +23,7 @@
     min-height: 0px;
     margin-top: 10px;
     width: 100%;
-    background-color: azure;
+    background-color: rgb(172, 185, 176);
     color: black;
 }
 
@@ -32,7 +32,7 @@
     min-height: 0px;
     margin-top: 10px;
     width: 100%;
-    background-color: azure;
+    background-color: rgb(172, 185, 171);
     color: black;
 }
 
@@ -41,18 +41,18 @@
     min-height: 0px;
     margin-top: 10px;
     width: 100%;
-    background-color: azure;
+    background-color: rgb(172, 185, 174);
     color: black;
 }
 
 .light {
-    background-color: white;
+    background-color: rgb(172, 185, 174);
     color: black;
 }
 
 .dark {
     background-color: black;
-    color: white;
+    color: rgb(234, 228, 228);
 }
 .dark label {
     color: black;

@@ -70,17 +70,17 @@ main {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: beige;
+    background-color: rgb(212, 212, 189);
     -webkit-transition: .4s;
     transition: .4s;
 }
 
 input:checked + .slider {
-    background-color: orange;
+    background-color: rgb(55, 81, 166);
 }
 
 input:focus + .slider {
-    box-shadow: 0 0 1px orange;
+    box-shadow: 0 0 1px rgb(40, 37, 216);
 }
 
 input:checked + .slider:before {
