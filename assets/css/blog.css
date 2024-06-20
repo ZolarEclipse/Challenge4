@@ -1,5 +1,5 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
@@ -14,7 +14,11 @@ p {
 .blogPage {
     overflow: scroll;
     padding-left: 15px;
+    border: 10px
+
 }
+
+
 
 header {
     background-color: white ;
@@ -70,17 +74,17 @@ main {
     width: 26px;
     left: 4px;
     bottom: 4px;
-    background-color: rgb(212, 212, 189);
+    background-color: beige;
     -webkit-transition: .4s;
     transition: .4s;
 }
 
 input:checked + .slider {
-    background-color: rgb(55, 81, 166);
+    background-color: orange;
 }
 
 input:focus + .slider {
-    box-shadow: 0 0 1px rgb(40, 37, 216);
+    box-shadow: 0 0 1px orange;
 }
 
 input:checked + .slider:before {
@@ -118,14 +122,8 @@ h4 {
 
 .footer {
     width: 100%;
-    position: fixed;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    bottom: 0px;
+    padding-left: 15px;
     font-size: 20px;
+    margin-top: 5%;
 }
 
-footer ul li {
-    flex-direction:column;
-    list-style: none;
-}
