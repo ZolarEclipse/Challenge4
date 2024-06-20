@@ -29,7 +29,7 @@ function displayBlogPosts () {
 
     themeswitcher.addEventListener('click', function() {
     if (mode === 'light') {
-        mode = 'dark';
+        mode = 'dark'; 
     container.setAttribute('class', 'light');    
     } else {
         mode = 'light';
