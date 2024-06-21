@@ -40,7 +40,7 @@ function displayBlogPosts () {
         mode = 'dark';
     container.setAttribute('class', 'light');    
     } else {
-        mode = 'ligh';
+        mode = 'light';
     container.setAttribute('class', 'dark');
     } 
     });
