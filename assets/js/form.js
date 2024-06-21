@@ -29,7 +29,7 @@ function saveBlog() {
         event.preventDefault();
     if(validateForm()) {
             saveBlog();
-            window.location.href = 'blog.html';
+            window.location.href = './blog.html';
         }
     });
     });
